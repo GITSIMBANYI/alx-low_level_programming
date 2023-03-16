@@ -1,11 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * mainfunction we need t use puts
- * return fuction we use 0
+ * main - a program to print aline with puts function
+ * return: 0
 */
-
-int main()
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzl");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
