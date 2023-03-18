@@ -8,18 +8,16 @@
  */
 int main(void)
 {
-	int n = 97;
+	char alp, e, q;
 
-	while (n <= 122)
-		{
-			if (n == 101 || n == 112)
-			{
-				n++;
-				continue;
-			}
-			putchar(n);
-			n++;
-		}
+	e = 'e';
+	q = 'q';
+
+	for (alp = 'a'; alp <= 'z'; alp++)
+	{
+	if ((alp != e) && (alp != q))
+	putchar(alp);
+	}
 	putchar('\n');
 	return (0);
 }
