@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main -  Entry point
- * descriptin: 'get the last digit of the number'
- * return: always  0
+ * Descriptin: 'get the last digit of the number'
+ * Return: Always  0
  */
 int main(void)
 {
