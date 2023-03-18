@@ -16,7 +16,7 @@ int main(void)
 	for (m = n + 1; m <= '9'; m++)
 	{
 
-	for (g = m + 1; g <= 'g'; g++)
+	for (g = m + 1; g <= '9'; g++)
 	{
 
 	if ((m != n) != g)
