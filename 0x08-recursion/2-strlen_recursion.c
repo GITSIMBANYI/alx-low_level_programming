@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _string_recursion - size
+ * _strlen_recursion - size
  * @s: pointer to string params
  * Return: recursion
  */
